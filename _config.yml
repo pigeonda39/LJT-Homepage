@@ -64,7 +64,7 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram         : # Username
   lastfm           : # Username
   linkedin         : # Username
   mastodon         : # URL
@@ -110,7 +110,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch               : "gh-pages" # "master", "gh-pages"
+  branch                 : "gh-pages" # "master", "gh-pages"
   commitMessage         : "New comment."
   filename              : comment-{@timestamp}
   format                : "yml"
@@ -232,7 +232,7 @@ collections:
     permalink: /:collection/:path/
   talks:
     output: true
-    permalink /:collection/:path/
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
